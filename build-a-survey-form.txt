@@ -1,0 +1,79 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <title>Survey Form</title>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+
+</head>
+
+<h1 id="title">Survey Form</h1>
+
+<body>
+<!-- Title of Survey form-->>
+ <h1 id="title">Survey Form</h1>
+ <hr>
+ <!--Description of survey form-->
+ <p id="description">Formulário de pesquisa</p>
+
+ <!--inputs, ids,select, fieldset, form and labels-->
+
+
+
+   <form id="survey-form">
+     <label id="name-label">Name
+     <input type="text" id="name" placeholder="Name" required>
+     </label>
+     <label id="email-label">Email
+   <input type="email" id="email" placeholder="Email" required>
+     </label>
+     <label id="number-label">Number
+   <input type="number" id="number" placeholder="Number" min="10" max="11">
+   </label><br>
+     <label for="dropdown-label">Gender
+     <select name="gender" id="dropdown" required>
+       <option>Select</option>
+       <option value="male">Male</option>
+       <option value="female">Female</option>
+</label>
+
+     </select>
+     <div>
+       <label for="Status">Status
+<input type="checkbox" value="single" name="single-married">Single</input>
+<input type="checkbox" value="married" name="single-married">Married</input>
+      </label>
+       <input type="radio" name="price" value="thousand">Divorced<br>
+       <input type="radio" name="price" value="lakh">Lakh<br>
+       <input type="radio" name="price" value="crore">Crore
+
+       </br>
+       <hr>
+
+       <input type="radio" name="gender" value="male">Male<br>
+       <input type="radio" name="gender" value="female">Female<br>
+       <input type="radio" name="gender" value="other">Other
+       <textarea id="textarea" name="textarea"
+rows="4" cols="50"></textarea>
+<br>
+ <input id="submit" type="submit" value="submit">
+ </form>
+
+
+
+
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
